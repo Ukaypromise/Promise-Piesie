@@ -8,6 +8,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 10px 10px;
 }
+code {
+  background-color: azure;
+  text-align: center;
+  
+}
 #main-doc {
   position: absolute;
   margin-left: 310px;
@@ -42,4 +47,28 @@ header {
   body {
     background-color: lightblue;
   }
+}
+@media only screen and (max-width: 815px) {
+
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+  #navbar {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    border: none;
+    z-index: 1;
+    
+  }
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+  
+}
+.nav-link {
+  padding-bottom: 20px;
 }
